@@ -1,0 +1,74 @@
+body{
+	background-color:dodgerblue;
+}
+
+section{
+	background-color:white;
+	width:400px;
+	padding:40px;
+	box-sizing: border-box;
+	margin:20px auto 0px auto;
+	}
+
+.logo{
+	height:35px;
+	display:block;
+	margin: 50px auto 0px auto;
+}
+
+header{
+	font-size:24pt;
+	text-align:center;
+	margin-bottom:16px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+input, button {
+	display: block;
+	width: 320px;
+	height:55px;
+	margin: 20px auto;
+	border:2px lightgray solid;
+	box-sizing:border-box;
+	padding:15px;
+}
+
+button {
+	background-color:mediumseagreen;
+	color:white;
+	font-weight:bold;
+	-o-transition:.5s;
+ 	-ms-transition:.5s;
+ 	-moz-transition:.5s;
+ 	-webkit-transition:.5s;
+  	transition:.5s;
+}
+
+button:hover{
+	background-color:seagreen;
+}
+
+.forgot{
+	text-align:center;
+	display:block;
+	font-size:10pt;
+}
+.forgot a{
+	color:darkgray;
+}
+
+.login{
+	text-align:center;
+	display:block;
+	margin-top:10px;
+	font-size:12pt;
+	color:white;
+	font-weight:bold;
+}
+
+.login a{
+	color:white;
+}
